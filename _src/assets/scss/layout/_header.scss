@@ -1,13 +1,13 @@
 .page__header {
-    background: pink;
     position: relative;
 }
 
 .btn {
     width: 44px;
     height: 44px;
-    background: #0271bc;
+    background: url('../images/ico-menu.svg') #0271bc center no-repeat;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }

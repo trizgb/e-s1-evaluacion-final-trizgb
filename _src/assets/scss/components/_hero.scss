@@ -10,6 +10,7 @@
 
 .wrapper__hero {
     padding: 0 15px 143px 15px;
+    // position: relative;
 }
 
 .message-hero {
@@ -26,9 +27,13 @@
     font-size: 16px;
 }
 
-// .scroll-hero {
-//     width: 45px;
-//     height: 45px;
-//     border-radius: 22px;
-//     background: #ffffff;
-// }
+.scroll-hero {
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+    background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    left: 138px;
+    bottom: 53px;
+}

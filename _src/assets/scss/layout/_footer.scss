@@ -1,23 +1,29 @@
 .page__footer {
-    background: #304268;
+    background: $BG-Footer;
     padding: 38px 15px 30px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .arrow-footer {
     width: 45px;
     height: 45px;
     border-radius: 22px;
-    background: #ffffff;
+    background: url('../images/ico-arrow.svg') #ffffff center no-repeat;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 50;
+    transform: translateY(-50%);
+    z-index: 1;
 }
 
 .text {
     font-size: 14px;
     line-height: 30px;
-    color: #ffffff;
+    color: $Color-text-white;
     text-align: center;
 }
 
@@ -29,4 +35,8 @@
 .text-footer {
     width: 290px;
     height: 30px;
+}
+
+.heart {
+    color: #f26002;
 }

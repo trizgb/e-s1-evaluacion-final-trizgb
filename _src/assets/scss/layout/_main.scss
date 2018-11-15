@@ -8,10 +8,11 @@
 .tips-text {
     width: 100px;
     height: 30px;
+    line-height: 2.14;
     padding-top: 30px;
     padding-bottom: 1px;
     font-size: 14px;
-    color: #0e80b9;
+    color: #8ccbea;
 }
 
 .section1-title {
@@ -19,13 +20,13 @@
     height: 60px;
     padding-bottom: 15px;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 1.25;
     color: #000000;
     font-weight: bold;
 }
 
 .paragraph--1 {
-    width: 300px;
+    width: 290px;
     height: 120px;
     padding-bottom: 30px;
     font-size: 18px;
@@ -35,6 +36,7 @@
 }
 
 .link-section1 {
+    margin-top: 30px;
     padding-bottom: 45px;
     display: flex;
     justify-content: flex-start;
@@ -45,7 +47,7 @@
 .go-link {
     width: 76px;
     height: 45px;
-    border-radius: 22px;
+    border-radius: 23px;
     border: 2px solid #f26002;
     font-size: 20px;
     line-height: 2.25;
@@ -69,7 +71,7 @@
     padding-top: 30px;
     padding-bottom: 45px;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 1.25;
     font-weight: bold;
     text-align: center;
 }
@@ -114,7 +116,7 @@
 .reasons-link {
     width: 184px;
     height: 45px;
-    border-radius: 22px;
+    border-radius: 23px;
     border: 2px;
     font-size: 20px;
     line-height: 2.25;
