@@ -10,6 +10,7 @@
 
 .wrapper__hero {
     padding: 0 15px 143px 15px;
+    width: 100vw;
     // position: relative;
 }
 
@@ -33,7 +34,19 @@
     border-radius: 22px;
     background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
     box-sizing: border-box;
-    position: absolute;
-    left: 138px;
-    bottom: 53px;
+    // position: absolute;
+    // left: 138px;
+    // bottom: 53px;
+}
+
+
+//Mediaquery tablet
+@media all and (min-width: 768px) {
+
+}
+
+
+//Mediaquery desktop
+@media all and (min-width: 1280px) {
+
 }
