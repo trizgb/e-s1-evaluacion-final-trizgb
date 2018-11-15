@@ -4,8 +4,6 @@
     padding: 0 15px;
     background: #ffffff;
 }
-.wrapper__section1 {
-}
 
 .tips-text {
     width: 100px;
@@ -36,22 +34,26 @@
     text-align: justify;
 }
 
+.link-section1 {
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
 .go-link {
+    width: 76px;
+    height: 45px;
+    border-radius: 22px;
+    border: 2px solid #f26002;
     font-size: 20px;
     line-height: 2.25;
     color: #f26002;
+    background: #ffffff;
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
-}
-
-.link-section1 {
-    width: 76px;
-    height: 45px;
-    margin-bottom: 45px;
-    border-radius: 22px;
-    border: 2px solid #f26002;
-    box-sizing: border-box;
 }
 
 //SECTION-2
@@ -64,12 +66,12 @@
 .section2-title {
     width: 100%;
     height: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 45px;
-
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .wrapper__section2 {
@@ -78,39 +80,46 @@
 }
 
 .wrapper__list {
+    text-align: center;
     list-style-type: none;
     display: grid;
     grid-template-columns: 180px;
     grid-gap: 45px;
-    text-align: center;
-}
-
-.paragraph {
-
-}
-
-.paragraph--2 {
-
-}
-
-.paragraph--3 {
-
-}
-
-.paragraph--4 {
-
 }
 
 .list-title {
-
+    width: 184px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
 }
 
-.text-list {
+.list-text {
+    width: 180px;
+    height: 63px;
+    font-size: 18px;
+    line-height: 1.67;
+}
 
+.link-section2 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
 }
 
 .reasons-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 184px;
+    height: 45px;
+    border-radius: 22px;
+    border: 2px;
+    font-size: 20px;
+    line-height: 2.25;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    background:  #f26002;
 }
