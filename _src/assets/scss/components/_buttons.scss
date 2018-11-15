@@ -1,0 +1,17 @@
+.menu-header {
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 0;
+    background: url('../images/ico-menu.svg') #0271bc center no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    outline: none;
+    transition: background-color ease 0.8s;
+    &:hover {
+        background-color: #f26002;
+    }
+}

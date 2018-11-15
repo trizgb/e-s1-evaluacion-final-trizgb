@@ -2,12 +2,5 @@
     position: relative;
 }
 
-.btn {
-    width: 44px;
-    height: 44px;
-    background: url('../images/ico-menu.svg') #0271bc center no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
+//Menu header
+@import 'components/buttons';
