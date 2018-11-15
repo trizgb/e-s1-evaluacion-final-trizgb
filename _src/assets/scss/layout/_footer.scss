@@ -1,4 +1,32 @@
 .page__footer {
     background: #304268;
-    padding: 0 15px;
+    padding: 38px 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.arrow-footer {
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+// .copy-footer {
+//     width: 77px;
+//     height: 30px;
+// }
+
+.text-footer {
+    width: 290px;
+    height: 30px;
 }
