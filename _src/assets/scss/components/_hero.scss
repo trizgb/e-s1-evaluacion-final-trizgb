@@ -1,6 +1,5 @@
 .page__hero {
     min-height: 100vh;
-    height: 568px;
     background: url('../images/cover.jpg') center no-repeat;
     box-sizing: border-box;
     background-size: cover;
@@ -39,14 +38,27 @@
     // bottom: 53px;
 }
 
-
 //Mediaquery tablet
 @media all and (min-width: 768px) {
-
+    .wrapper__hero {
+        padding: 0 39px 120px;
+        width: 100vw;
+    }
+    .title-hero {
+        font-size: 80px;
+    }
+    .text-hero {
+        font-size: 24px;
+    }
 }
-
 
 //Mediaquery desktop
 @media all and (min-width: 1280px) {
-
+    .wrapper__hero {
+        padding: 0 275px 88px;
+        width: 100vw;
+    }
+    .title-hero {
+        font-size: 100px;
+    }
 }
