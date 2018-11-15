@@ -1,0 +1,35 @@
+.page__hero {
+    min-height: 100vh;
+    height: 568px;
+    background: url('../images/cover.jpg') center no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper__hero {
+    padding: 0 15px 143px 15px;
+}
+
+.message-hero {
+    font-family: 'Roboto',  sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title-hero {
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.text-hero {
+    font-size: 16px;
+}
+
+.scroll-hero {
+    width: 45px;
+    height: 45px;
+    border-radius: 22px;
+    background: #ffffff;
+}
