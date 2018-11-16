@@ -9,8 +9,6 @@
 
 .wrapper__hero {
     padding: 0 15px 143px 15px;
-    width: 100vw;
-    // position: relative;
 }
 
 .message-hero {
@@ -33,16 +31,12 @@
     border-radius: 22px;
     background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
     box-sizing: border-box;
-    // position: absolute;
-    // left: 138px;
-    // bottom: 53px;
 }
 
 //Mediaquery tablet
 @media all and (min-width: 768px) {
     .wrapper__hero {
         padding: 0 39px 120px;
-        width: 100vw;
     }
     .title-hero {
         font-size: 80px;
@@ -56,7 +50,6 @@
 @media all and (min-width: 1280px) {
     .wrapper__hero {
         padding: 0 275px 88px;
-        width: 100vw;
     }
     .title-hero {
         font-size: 100px;
