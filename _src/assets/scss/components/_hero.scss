@@ -8,7 +8,7 @@
 }
 
 .wrapper__hero {
-    padding: 0 15px 143px 15px;
+    padding: 0 15px;
 }
 
 .message-hero {
@@ -23,20 +23,13 @@
 
 .text-hero {
     font-size: 16px;
-}
-
-.scroll-hero {
-    width: 45px;
-    height: 45px;
-    border-radius: 22px;
-    background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
-    box-sizing: border-box;
+    padding-bottom: 45px;
 }
 
 //Mediaquery tablet 768px
 @media all and (min-width: 768px) {
     .wrapper__hero {
-        padding: 0 39px 120px;
+        padding: 0 39px;
     }
     .title-hero {
         font-size: 80px;
@@ -49,7 +42,7 @@
 //Mediaquery desktop 1280px
 @media all and (min-width: 1280px) {
     .wrapper__hero {
-        padding: 0 275px 88px;
+        padding: 0 275px;
     }
     .title-hero {
         font-size: 100px;
