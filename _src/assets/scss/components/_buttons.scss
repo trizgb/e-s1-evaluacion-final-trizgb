@@ -1,3 +1,4 @@
+//button header
 .menu-header {
     width: 44px;
     height: 44px;
@@ -13,5 +14,86 @@
     transition: background-color ease 0.8s;
     &:hover {
         background-color: #f26002;
+    }
+}
+
+//button section 1
+.btn-section1 {
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+    @media all and (min-width: 768px) {
+    padding-bottom: 60px;
+    }
+}
+
+.go-link {
+    width: 76px;
+    height: 45px;
+    border-radius: 23px;
+    border: 2px solid #f26002;
+    font-size: 20px;
+    line-height: 2.25;
+    color: #f26002;
+    background: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+    transition: width ease 0.8s;
+    &:hover {width: 152px;}
+
+    @media all and (min-width: 768px) {
+    width: 91px;
+    &:hover {width: 182px;}
+    }
+
+    @media all and (min-width: 1280px){
+    width: 160px;
+    &:hover {width: 320px;}
+    }
+}
+
+//button section 2
+.btn-section2 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+    @media all and (min-width: 768px) {
+    padding-top: 60px;
+    }
+}
+
+.reasons-link {
+    width: 184px;
+    height: 45px;
+    border-radius: 23px;
+    border: 2px;
+    font-size: 20px;
+    line-height: 2.25;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    background:  #f26002;
+    cursor: pointer;
+    outline: none;
+    transition: background-color ease 0.8s;
+    &:hover {
+        background-color: #0271bc;
+    }
+
+    @media all and (min-width: 768px) {
+    width: 210px;
+    }
+    
+    @media all and (min-width: 1280px){
+    width: 255px;
     }
 }

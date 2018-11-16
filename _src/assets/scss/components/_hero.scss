@@ -33,7 +33,7 @@
     box-sizing: border-box;
 }
 
-//Mediaquery tablet
+//Mediaquery tablet 768px
 @media all and (min-width: 768px) {
     .wrapper__hero {
         padding: 0 39px 120px;
@@ -46,7 +46,7 @@
     }
 }
 
-//Mediaquery desktop
+//Mediaquery desktop 1280px
 @media all and (min-width: 1280px) {
     .wrapper__hero {
         padding: 0 275px 88px;
