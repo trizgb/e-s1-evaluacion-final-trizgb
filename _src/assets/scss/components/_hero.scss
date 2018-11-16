@@ -26,6 +26,26 @@
     padding-bottom: 45px;
 }
 
+//Button Hero
+.scroll-hero {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 53px;
+    border-radius: 22px;
+    background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
+    box-sizing: border-box;
+    border:unset;
+    outline: none;
+
+    @media all and (min-width:768px) {
+        margin-bottom: 45px;
+    }
+
+    @media all and (min-width:1280px) {
+        margin-bottom: 13px;
+    }
+}
+
 //Mediaquery tablet 768px
 @media all and (min-width: 768px) {
     .wrapper__hero {
