@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: flex-end;
 }
 
@@ -23,26 +24,29 @@
 
 .text-hero {
     font-size: 16px;
-    padding-bottom: 45px;
+    padding-bottom: 143px;
 }
 
 //Button Hero
 .scroll-hero {
     width: 45px;
     height: 45px;
-    margin-bottom: 53px;
     border-radius: 22px;
     background: url('../images/ico-scroll-down.svg') #ffffff center no-repeat;
     box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    bottom: 53px;
+    transform: translateX(-50%);
     border:unset;
     outline: none;
 
     @media all and (min-width:768px) {
-        margin-bottom: 45px;
+        bottom: 45px; 
     }
 
     @media all and (min-width:1280px) {
-        margin-bottom: 13px;
+        bottom: 13px; 
     }
 }
 
@@ -56,6 +60,7 @@
     }
     .text-hero {
         font-size: 24px;
+        padding-bottom: 120px;
     }
 }
 
@@ -66,5 +71,8 @@
     }
     .title-hero {
         font-size: 100px;
+    }
+    .text-hero {
+        padding-bottom: 88px;
     }
 }
