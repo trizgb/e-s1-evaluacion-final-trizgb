@@ -1,5 +1,4 @@
 //SECTION 1
-
 .section-1 {
     padding: 0 15px;
     background: #ffffff;
@@ -31,7 +30,6 @@
 }
 
 //SECTION 2
-
 .section-2 {
     background: #eff9ff;
 }
@@ -53,8 +51,8 @@
 .list-title {
     width: 184px;
     font-size: 18px;
-    font-weight: bold;
     line-height: 1.67;
+    font-weight: bold;
 }
 
 .list-text {
@@ -112,5 +110,12 @@
         padding-top: 60px;
         font-size: 32px;
         line-height: 1.41;
+    }
+
+    .list-title {
+        width: 350px;
+    }
+    .list-text {
+        width: 353px;
     }
 }
