@@ -29,6 +29,23 @@
     text-align: justify;
 }
 
+//Section between
+
+.between {
+    padding: 20px;
+    background-color: $orange;
+    text-align: right;
+    color: white;
+
+    @media all and (min-width:768px) {
+        padding: 30px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $sea-blue;
+    }
+}
+
 //SECTION 2
 .section-2 {
     background: #eff9ff;
@@ -61,6 +78,9 @@
     font-size: 18px;
     line-height: 1.67;
 }
+
+
+
 
 //Mediaquery tablet 768px
 @media all and (min-width: 768px) {
